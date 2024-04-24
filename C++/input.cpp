@@ -10,11 +10,11 @@ int main ()
 
     cout << "Enter Your Name : ";
     cin >> name; // Input Name
-    cout << "Enter You Mother's Name : ";
+    cout << "Enter Your Mother's Name : ";
     cin >> motherName; // Input Mother Name
     cout << "Enter Your Father's Name : ";
     cin >> fatherName; // Input Father Name
-    cout << "Enter You Age : ";
+    cout << "Enter Your Age : ";
     cin >> age; // Input Age
 
     cout << "\n\nYour Entered Data : \n";
