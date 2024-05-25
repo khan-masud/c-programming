@@ -30,9 +30,12 @@ void bubbleSort(int arr[], int n)
         {
             if (arr[j] > arr[j+1])
             {
+                swap(arr[j], arr[j+1]); // build in swap function
+                /*
                 int temp = arr[j];
                 arr[j] = arr[j+1];
                 arr[j+1] = temp;
+                */
                  flag = 1;
             }
         }
